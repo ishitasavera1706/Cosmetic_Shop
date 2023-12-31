@@ -37,10 +37,11 @@
                                     {   $msg = "Failed to upload image";    }
                                
 					      
-					        $sql = "INSERT INTO category (category_name,images) VALUES ('$category_name','$folder')";
+					        $sql = "INSERT INTO category (category_name,images) VALUES ('$category_name','$filename')";
 					        if (mysqli_query($conn,$sql)) 
 					        {
 					            echo "<script>alert('Your Category added successfully !');</script>";
+                                
 					        } 
 					        else 
 					        {
