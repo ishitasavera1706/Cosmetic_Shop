@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left-image">
-                        <img src="https://makschool.es/wp-content/uploads/2020/04/bigstock-Luxury-Makeup-Beauty-Products-332454787-scaled.jpg" alt="">
+                        <img src="assets/images/about1.webp" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6">
