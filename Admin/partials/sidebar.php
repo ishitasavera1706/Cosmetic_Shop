@@ -33,7 +33,7 @@
             </a>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" href="category.php">
+            <a class="nav-link" href="product.php">
               <span class="menu-icon">
                 <i class="mdi mdi-pot-mix"></i>
               </span>
@@ -41,7 +41,7 @@
             </a>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" href="category.php">
+            <a class="nav-link" href="order.php">
               <span class="menu-icon">
                 <i class="mdi mdi-desktop-mac"></i>
               </span>
