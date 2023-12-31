@@ -33,7 +33,7 @@
                 <div class="col-lg-4">
                     <div class="team-item">
                         <div class="thumb">
-                            <img src="assets/images/team-member-01.jpg">
+                            <img src="assets/images/about2.jpg">
                         </div>
                         <div class="down-content">
                             <h4>Mishaka Patel</h4>
@@ -43,7 +43,7 @@
                 <div class="col-lg-4">
                     <div class="team-item">
                         <div class="thumb"> 
-                            <img src="assets/images/team-member-02.jpg">
+                            <img src="assets/images/about3.jpg">
                         </div>
                         <div class="down-content">
                             <h4>Disha Patel</h4>
@@ -53,7 +53,7 @@
                 <div class="col-lg-4">
                     <div class="team-item">
                         <div class="thumb">
-                            <img src="assets/images/team-member-03.jpg">
+                            <img src="assets/images/about4.jpg">
                         </div>
                         <div class="down-content">
                             <h4>Shiya Patel</h4>
