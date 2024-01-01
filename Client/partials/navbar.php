@@ -17,13 +17,14 @@
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="index.php" class="logo">
-                            <img src="assets/images/logo(1).jpg">
+                            <img src="assets/images/logo.png">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="index.php" class="active">Home</a></li>
                             <li class="scroll-to-section"><a href="about.php">About</a></li>
+                            <li class="scroll-to-section"><a href="category.php">Category</a></li>
                             <li class="scroll-to-section"><a href="contact.php">Contact</a></li>
                         </ul>        
                     </nav>
