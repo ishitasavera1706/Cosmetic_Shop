@@ -6,13 +6,13 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left-image">
-                        <img src="assets/images/about1.avif" alt="">
+                        <img src="assets/images/about1.jpg">
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="right-content">
-                        <h4>Why Midshi !</h4>
-                        <span>Our journey began with a simple yet powerful vision: to create a beauty brand that celebrates diversity, embraces individuality, and empowers everyone to feel their best. Drawing inspiration from the ever-evolving world of fashion and beauty, we embarked on a mission to redefine beauty standards and make premium cosmetics accessible to all.</span>
+                        <h4>Why Midshi !</h4>    
+                        <p>Our journey began with a simple yet powerful vision: to create a beauty brand that celebrates diversity, embraces individuality, and empowers everyone to feel their best. Drawing inspiration from the ever-evolving world of fashion and beauty, we embarked on a mission to redefine beauty standards and make premium cosmetics accessible to all.</p>
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@
                 <div class="col-lg-12">
                     <div class="section-heading">
                         <h2>Our Amazing Team</h2>
-                        <span>Details to details is what makes Hexashop different from the other themes.</span>
+                        <span>Details to details is what makes Midshi different from the other themes.</span>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -36,30 +36,27 @@
                             <img src="assets/images/about2.jpg">
                         </div>
                         <div class="down-content">
-                            <h4>Ragnar Lodbrok</h4>
-                            <span>Product Caretaker</span>
+                            <h4>Mishaka Patel</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="team-item">
                         <div class="thumb">
-                            <img src="assets/images/team-member-02.jpg">
+                            <img src="assets/images/about3.jpg">
                         </div>
                         <div class="down-content">
-                            <h4>Ragnar Lodbrok</h4>
-                            <span>Product Caretaker</span>
+                            <h4>Disha Patel</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="team-item">
                         <div class="thumb">
-                            <img src="assets/images/team-member-03.jpg">
+                            <img src="assets/images/about4.jpg">
                         </div>
                         <div class="down-content">
-                            <h4>Ragnar Lodbrok</h4>
-                            <span>Product Caretaker</span>
+                            <h4>Shiya Patel</h4>
                         </div>
                     </div>
                 </div>
