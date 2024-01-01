@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="assets/css/owl-carousel.css">
 
     <link rel="stylesheet" href="assets/css/lightbox.css">
+
+    <link rel="stylesheet" href="assets/css/category.css">
 <!--
 
 TemplateMo 571 Hexashop
