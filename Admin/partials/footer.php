@@ -20,6 +20,7 @@
     <script src="assets/js/misc.js"></script>
     <script src="assets/js/settings.js"></script>
     <script src="assets/js/todolist.js"></script>
+    <script type="text/javascript" src="assets/js/file-upload.js"></script>
     <!-- endinject -->
     <!-- Custom js for this page -->
     <script src="assets/js/dashboard.js"></script>

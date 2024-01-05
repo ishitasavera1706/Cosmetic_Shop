@@ -13,52 +13,54 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="item">
-                        <div class="thumb">
-                            <div class="hover-content">
-                                <ul>
-                                    <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                </ul>
+                
+        <?php
+          //create sql quary to display category from database
+          
+          $conn=mysqli_connect("localhost","root","","cosmetic");
+          $sql = "SELECT * FROM category";
+
+          $res=mysqli_query($conn,$sql);
+
+          //Count rows to check wether the category is available or not
+
+          $count = mysqli_num_rows($res);
+
+          if($count>0)
+          {
+            //category available
+            while($row=mysqli_fetch_assoc($res))
+            {
+                //get value like id, name,image..
+                ?>
+
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                    </ul>
+                                </div>
+                               
+                               <img src="localhost/Cosmetic/Client//<?php echo $row['images']; ?>" alt="Not found">
                             </div>
-                            <img src="assets/images/men-01.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <h4>Classic Spring</h4>
-                            <span>$120.00</span>
-                            <ul class="stars">
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
+                            <div class="down-content">
+                                <h4><?php echo $row['category_name']?></h4>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="item">
-                        <div class="thumb">
-                            <div class="hover-content">
-                                <ul>
-                                    <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                </ul>
-                            </div>
-                            <img src="assets/images/men-01.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <h4>Classic Spring</h4>
-                            <span>$120.00</span>
-                            <ul class="stars">
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+
+                <?php
+            }
+          }
+          else
+          {
+            //category not available
+            echo"<div class='error'>category not added.</div>";
+          }
+        ?>
+        
             </div>
         </div>
     </section>
