@@ -42,8 +42,8 @@
                                         <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
                                     </ul>
                                 </div>
+                               <img src="<?php echo 'upload/'.$row['images'] ?>">
                                
-                               <img src="localhost/Cosmetic/Client//<?php echo $row['images']; ?>" alt="Not found">
                             </div>
                             <div class="down-content">
                                 <h4><?php echo $row['category_name']?></h4>
