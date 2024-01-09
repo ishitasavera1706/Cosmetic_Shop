@@ -42,7 +42,7 @@
                                         <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
                                     </ul>
                                 </div>
-                               <img src="<?php echo 'upload/'.$row['images'] ?>">
+                               <img src="<?php echo '../upload/'.$row['images'] ?>">
                                
                             </div>
                             <div class="down-content">

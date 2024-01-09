@@ -51,7 +51,7 @@
           <li class="nav-item menu-items">
             <a class="nav-link" href="contact.php">
               <span class="menu-icon">
-                <i class="mdi mdi-desktop-mac"></i>
+                <i class="mdi mdi-contacts"></i>
               </span>
               <span class="menu-title">Contact</span>
             </a>

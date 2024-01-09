@@ -28,7 +28,7 @@
                                         <td><?php echo $data['email']; ?></td>
                                         <td><?php echo $data['message']; ?></td>
                                         <td>
-                                          <a href="delete_contact.php?userid=<?php echo $data["contact_id"]; ?>"><input type="button" value="Delete" class="btn btn-dark btn-md"></a>
+                                          <a href="delete_contact.php?userid=<?php echo $data["contact_id"]; ?>"><i class="mdi mdi-delete text-danger"></i></a>
                                         </td>
                                     </tr> 
                                           <?php
