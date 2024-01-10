@@ -2338,3 +2338,10 @@ responsive
     opacity: 0;
   }
 }
+
+/*category images*/
+
+.category-img{
+  height: 345.2px;
+  width: 345.2px;
+}

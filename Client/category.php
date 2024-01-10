@@ -39,10 +39,13 @@
                             <div class="thumb">
                                 <div class="hover-content">
                                     <ul>
-                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="single-product.html"></a></li>
                                     </ul>
                                 </div>
-                               <img src="<?php echo '../upload/'.$row['images'] ?>">
+                                <div class="category-img">
+                                <img src="<?php echo '../upload/'.$row['images'] ?>">
+                            </div>
+                              
                                
                             </div>
                             <div class="down-content">
