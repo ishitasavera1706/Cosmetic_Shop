@@ -1,3 +1,19 @@
+<?php
+
+
+session_start();
+
+if(!isset($_SESSION['admin_user']))
+{
+	header("location:login.php");
+	
+	exit();
+	
+}
+
+
+  
+?>
 <?php include_once('partials/main.php') ?>
 
               <div class="row">
