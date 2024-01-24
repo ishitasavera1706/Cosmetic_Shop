@@ -25,6 +25,14 @@
             </a>
           </li>
           <li class="nav-item menu-items">
+            <a class="nav-link" href="customer.php">
+              <span class="menu-icon">
+                <i class="mdi mdi-account-circle"></i>
+              </span>
+              <span class="menu-title">Customers</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
             <a class="nav-link" href="category.php">
               <span class="menu-icon">
                 <i class="mdi mdi-auto-fix"></i>

@@ -26,6 +26,7 @@
                             <li class="scroll-to-section"><a href="about.php">About</a></li>
                             <li class="scroll-to-section"><a href="category.php">Category</a></li>
                             <li class="scroll-to-section"><a href="contact.php">Contact</a></li>
+                            <li class="scroll-to-section"><a href="login.php">Login</a></li>
                         </ul> 
                         <a class='menu-trigger'>
                             <span>Menu</span>

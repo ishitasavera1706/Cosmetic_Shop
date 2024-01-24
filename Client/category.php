@@ -37,12 +37,7 @@
                     <div class="col-lg-4">
                         <div class="item">
                             <div class="thumb">
-                                <div class="hover-content">
-                                    <ul>
-                                        <li><a href="single-product.html"></a></li>
-                                    </ul>
-                                </div>
-                                <div class="category-img">
+                                <div class="categoryimg">
                                 <img src="<?php echo '../upload/'.$row['images'] ?>">
                             </div>
                               
@@ -63,7 +58,10 @@
             echo"<div class='error'>category not added.</div>";
           }
         ?>
-        
+        <div >
+        <button onclick="window.location.href='about.php';"><h4>Show</h4></button>
+
+        </div>
             </div>
         </div>
     </section>
