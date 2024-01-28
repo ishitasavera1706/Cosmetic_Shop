@@ -57,6 +57,14 @@
             </a>
           </li>
           <li class="nav-item menu-items">
+            <a class="nav-link" href="payment.php">
+              <span class="menu-icon">
+                <i class="mdi mdi-deskphone"></i>
+              </span>
+              <span class="menu-title">Payment</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
             <a class="nav-link" href="contact.php">
               <span class="menu-icon">
                 <i class="mdi mdi-contacts"></i>
