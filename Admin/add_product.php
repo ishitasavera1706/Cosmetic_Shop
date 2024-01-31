@@ -6,9 +6,19 @@
       <form class="forms-sample" method="post" enctype="multipart/form-data">
         <div class="form-group">
           <label for="exampleInputName1">Category Name</label>
-          <select class="form-control">
-            <option>Male</option>
-            <option>Female</option>
+          <select class="form-control" name="category">
+            <?php
+            include('connect.php');
+            $query = "select * from category";
+            $result = mysqli_query($conn,$query);
+            while($category=mysqli_fetch_array($result,MYSQLI_ASSOC)):;
+              ?>
+              <option value="<?php echo $category["category_id"];?>">
+                <?php echo $category["category_name"];?>
+              </option>
+              <?php
+            endwhile;  
+            ?>
           </select>
         </div>
         <div class="form-group">
@@ -18,7 +28,12 @@
         <div class="form-group">
           <label for="exampleInputName1">Price</label>
           <input type="text" name="price" class="form-control" placeholder="Price">
-        </div>                 
+        </div> 
+           <div class="form-group">
+          <label for="exampleInputName1">Description</label>
+          <textarea name="description" class="form-control" placeholder="Description" rows="5" cols="5">
+          </textarea>
+        </div>              
         <div class="form-group">
           <label>File upload</label>
           <input type="file" name="img" class="file-upload-default">
@@ -35,8 +50,10 @@
 
       if(isset($_POST['submit']))
       {
-        $category_name =$_POST['category_name'];
-
+        $category =$_POST['category'];
+        $product_name=$_POST['product_name'];
+        $price=$_POST['price'];
+        $description=$_POST['description'];
         $filename = $_FILES["img"]["name"];
         $tempname = $_FILES["img"]["tmp_name"];    
         $folder = "../upload/".$filename;
@@ -48,10 +65,10 @@
           {   $msg = "Failed to upload image";    }
 
 
-        $sql = "INSERT INTO category (category_name,images) VALUES ('$category_name','$filename')";
+        $sql = "INSERT INTO product (category_id,product_name,price,description,images) VALUES ('$category','$product_name','$price','$description','$filename')";
         if (mysqli_query($conn,$sql)) 
         {
-          echo "<script>alert('Your Category added successfully !');</script>";
+          echo "<script>alert('Your Product added successfully !');</script>";
 
         } 
         else 
@@ -67,11 +84,3 @@
   </div>
 </div>
 <?php include_once('partials/footer.php') ?>    
-
-
-
-
-<div class="form-group">
-  <label for="exampleSelectGender">Gender</label>
-
-</div>

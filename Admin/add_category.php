@@ -27,7 +27,7 @@
 					        $category_name =$_POST['category_name'];
 
                             $filename = $_FILES["img"]["name"];
-                            $tempname = $_FILES["img"]["tmp_name"];    
+                            $tempname = $_FILES["img"]["tmp_name"];   
                             $folder = "../upload/".$filename;
                                 
                                 // Now let's move the uploaded image into the folder: image
