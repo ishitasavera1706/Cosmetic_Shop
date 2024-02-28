@@ -4,8 +4,8 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="first-item">
-                        <div class="logo">
-                            <img src="assets/images/white-logo.png" alt="hexashop ecommerce templatemo">
+                        <div class="pb-3">
+                            <img src="assets/images/logo.jpg" height="85px" alt="hexashop ecommerce templatemo">
                         </div>
                         <ul>
                             <li><a href="#">"Midshi" University Road Rajkot</a></li>
@@ -17,12 +17,13 @@
                 <div class="col-lg-3">
                     <h4>Categories</h4>
                     <ul>
-                        <li><a href="#">Lipstick</a></li>
-                        <li><a href="#">Nailpaint</a></li>
-                        <li><a href="#">Foundation</a></li>
-                        <li><a href="#">Face Powder</a></li>
+                        <li><a href="product.php">Lipstick</a></li>
+                        <li><a href="product.php">Nailpaint</a></li>
+                        <li><a href="product.php">Foundation</a></li>
+                        <li><a href="product.php">Face Powder</a></li>
+                        <li><a href="product.php">Brush</a></li>
                     </ul>
-                </div>
+                </div>  
                 <div class="col-lg-3">
                     <h4>Useful Links</h4>
                     <ul>
@@ -30,16 +31,18 @@
                         <li><a href="about.php">About Us</a></li>
                         <li><a href="categorys.php">Categoris</a></li>
                         <li><a href="contact.php">Contact Us</a></li>
+                        <li><a href="login.php">Login</a></li>
+                        <li><a href="register.php">Register</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-12">
                     <div class="under-footer">
                         <p>Copyright © 2024 Midshi Co., Ltd. All Rights Reserved. 
                         <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href=""><i class="fa fa-behance"></i></a></li>
                         </ul>
                     </div>
                 </div>

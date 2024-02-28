@@ -13,10 +13,10 @@
                     while($data=mysqli_fetch_array($records))
                     {
                         ?>
-                            <div class="col-lg-3">
+                            <div class="col-lg-3 pl-5">
                     <div class="right-content">
                         <div class="row">
-                        <div class="card mr-2 ml-1" style="width: 18rem;border-color:black;border-width: 3px;">
+                        <div class="card mr-2 ml-1 mb-4" style="width: 18rem;border-color:black;border-width: 3px;">
                             <img src="<?php echo '../upload/'.$data['images'] ?>" class="card-img-top" alt="..." height="250px">
                             <hr style="width:100%;text-align:left;margin-left:0;border-color:black;">
                             <div class="card-body">

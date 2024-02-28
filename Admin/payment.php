@@ -12,6 +12,7 @@
 							<th> Card Number </th>
 							<th> Expiry </th>
 							<th> CVV/CVC </th>
+							<th> Action </th>
 						</tr>
 					</thead>
 					<tbody>

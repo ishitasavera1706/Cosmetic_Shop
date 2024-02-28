@@ -13,7 +13,7 @@
 
 		if ($row==1) 
 		{
-			header("Location: category.php");
+			header("Location: product.php");
 		}
 		else
 		{

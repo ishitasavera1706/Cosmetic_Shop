@@ -20,7 +20,7 @@
                           if($exe_query)
                           {
                             echo "<script>alert('You are regiter successfully !');</script>";
-                            header("Location: category.php");
+                            header("Location: product.php");
                           }
                           else 
                           {

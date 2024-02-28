@@ -2,7 +2,7 @@
 <div class="pt-3 col-lg-12 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="card-title">Contact</h4>
+                    <h4 class="card-title">Customer</h4>
                     <div class="table-responsive">
                       <table class="table">
                         <thead>

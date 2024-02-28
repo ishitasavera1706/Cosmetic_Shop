@@ -1,32 +1,23 @@
 <?php
      
-  $conn = mysqli_connect("localhost","root","","cosmetic");
+      $conn = mysqli_connect("localhost","root","","cosmetic");
   
 
       if(isset($_POST['submit']))
-      {
-        $customer_name =$_POST['customer_name'];
-        $city=$_POST['city'];
-        $address=$_POST['address'];
-        $phone=$_POST['phone'];
+      { 
         $product_name=$_POST['product_name'];
-        $price=$_POST['price']; 
-        $filename = $_FILES["images"]["name"];
-        $tempname = $_FILES["images"]["tmp_name"];    
-        $folder = "../upload/".$filename;
-
-// Now let's move the uploaded image into the folder: image
-        if (move_uploaded_file($tempname, $folder))  
-          {   $msg = "Image uploaded successfully";   }
-        else
-          {   $msg = "Failed to upload image";    }
-
-
-        $sql = "INSERT INTO order (customer_name,city,address,phone,product_name,images,price,) VALUES ('$customer_name','$city','$address','$phone','$product_name','$filename','$price')";
-        if (mysqli_query($conn,$sql)) 
+        $price=$_POST['price'];
+        $customer_name =$_POST['customer_name']; 
+        $city =$_POST['city'];
+        $address =$_POST['addr'];
+        $phone = $_POST['phone'];
+       
+       $query = "INSERT INTO `use_order` (`product_name`,`customer_name`,`city`,`addr`,`phone`,`price`) VALUES ('$product_name','$customer_name','$city','$address','$phone','$price')";
+        
+        if (mysqli_query($conn,$query)) 
         {
-          
-          header("Location:thank_you.php");
+         
+          header("location:payment.php");
         } 
         else 
         {

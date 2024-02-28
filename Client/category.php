@@ -63,6 +63,6 @@
         </div>
 </section>
 <div>
-    <button onclick="window.location.href='product.php';"><h4>Show</h4></button>
+    <button onclick="window.location.href='login.php';"><h4>Show</h4></button>
 </div>   
 <?php include_once('partials/footer.php') ?>	

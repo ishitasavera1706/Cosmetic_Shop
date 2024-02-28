@@ -21,7 +21,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 20px;
+      padding-left: 280px;
+      padding-right: 280px;
       background:#ff8080;
       }
       h1 {
@@ -141,7 +142,7 @@
                     
                             
         <button class="button" type="submit" name="submit">Submit</button>
-        <button class="button" onclick="window.location.href='order.php';">Back</button>
+        <button class="button" onclick="window.location.href='index.php';">Home</button>
       </div>
     </form>
   </body>
