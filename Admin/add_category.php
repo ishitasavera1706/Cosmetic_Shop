@@ -12,7 +12,7 @@
                             <label>File upload</label>
                             <input type="file" name="img" class="file-upload-default">
                             <div class="input-group col-xs-12">
-                                <input type="file" name="img" class="form-control file-upload-info" placeholder="Upload Image">
+                                <input type="file" name="img" class="form-control" placeholder="Upload Image">
                             </div>
                         </div>
                         <input type="submit" name="submit" value="Submit" class="btn btn-primary mr-2">
@@ -28,7 +28,7 @@
 
                             $filename = $_FILES["img"]["name"];
                             $tempname = $_FILES["img"]["tmp_name"];   
-                            $folder = "../upload/".$filename;
+                            $folder = "./upload/".$filename;
                                 
                                 // Now let's move the uploaded image into the folder: image
                                 if (move_uploaded_file($tempname, $folder))  
