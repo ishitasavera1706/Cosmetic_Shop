@@ -36,8 +36,7 @@
                                         <td><?php echo $data['description']; ?></td>
                                         <td><img src="<?php echo '../upload/'.$data['images'] ?>" height="100" width="100"></td>
                                         <td>
-                                          <a href="edit_category.php?userid=<?php echo $data["category_id"]; ?>"><i class="mdi mdi-grease-pencil text-info"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                          <a href="delete_category.php?userid=<?php echo $data["category_id"]; ?>"><i class="mdi mdi-delete text-danger"></i></a>
+                                          <a href="delete_product.php?userid=<?php echo $data["product_id"]; ?>"><i class="mdi mdi-delete text-danger"></i></a>
                                         </td>
                                     </tr> 
                                           <?php
